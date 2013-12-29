@@ -1,4 +1,4 @@
-# SetOfRanges
+# SetOfRanges [![Build Status](https://secure.travis-ci.org/palmergs/set_of_ranges.png?branch=master)](http://travis-ci.org/palmergs/set_of_ranges)
 
 `SetOfRanges::Set` is a simple gem that inherits from `Set` and allows `Range` instances as values. It behaves like `Set` except that the add method attempts to merge adjacent and overlapping ranges. It was designed for use with integer values. Insertion of new range values is proportional to the number of existing values in the set.
 
